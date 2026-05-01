@@ -1,0 +1,42 @@
+// !$*UTF8*$!
+{
+archiveVersion = 1;
+classes = {};
+objectVersion = 56;
+objects = {
+/* Begin PBXFileReference section */
+A1 /* brrr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = brrr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+/* Begin PBXFrameworksBuildPhase section */
+A2 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+/* Begin PBXGroup section */
+A3 = {isa = PBXGroup; children = (A4,A5); sourceTree = "<group>"; };
+A4 = {isa = PBXGroup; path = brrr; sourceTree = "<group>"; };
+A5 = {isa = PBXGroup; children = (A1); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+/* Begin PBXNativeTarget section */
+A6 = {isa = PBXNativeTarget; buildConfigurationList = A7; buildPhases = (A8,A2,A9); buildRules = (); dependencies = (); name = brrr; productName = brrr; productReference = A1; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+/* Begin PBXProject section */
+A10 = {isa = PBXProject; attributes = {LastSwiftUpdateCheck = 1600; LastUpgradeCheck = 1600;}; buildConfigurationList = A11; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = A3; productRefGroup = A5; projectDirPath = ""; projectRoot = ""; targets = (A6); };
+/* End PBXProject section */
+/* Begin PBXResourcesBuildPhase section */
+A8 = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXResourcesBuildPhase section */
+/* Begin PBXSourcesBuildPhase section */
+A9 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+/* Begin XCBuildConfiguration section */
+A12 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_ENTITLEMENTS = brrr/brrr.entitlements; CURRENT_PROJECT_VERSION = 1; INFOPLIST_FILE = brrr/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = xyz.vymedia.brrr; PRODUCT_NAME = brrr; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Debug; };
+A13 = {isa = XCBuildConfiguration; buildSettings = {CODE_SIGN_ENTITLEMENTS = brrr/brrr.entitlements; CURRENT_PROJECT_VERSION = 1; INFOPLIST_FILE = brrr/Info.plist; IPHONEOS_DEPLOYMENT_TARGET = 17.0; PRODUCT_BUNDLE_IDENTIFIER = xyz.vymedia.brrr; PRODUCT_NAME = brrr; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2";}; name = Release; };
+A14 = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)";}; name = Debug; };
+A15 = {isa = XCBuildConfiguration; buildSettings = {PRODUCT_NAME = "$(TARGET_NAME)";}; name = Release; };
+/* End XCBuildConfiguration section */
+/* Begin XCConfigurationList section */
+A7 = {isa = XCConfigurationList; buildConfigurations = (A12,A13); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+A11 = {isa = XCConfigurationList; buildConfigurations = (A14,A15); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+};
+rootObject = A10;
+}
