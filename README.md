@@ -92,6 +92,21 @@ curl -X POST https://push.vymedia.xyz \
 
 Settings screen allows replacing `https://push.vymedia.xyz` so users can point to their own deployment.
 
+## Install/runtime error fix
+
+If you see:
+
+`Failed to map .../Documents/Applications/.../brrr: Bad file descriptor`
+
+this usually means the IPA was unsigned (or incorrectly signed) and iOS cannot map/launch the app binary.
+
+Use one of these paths instead:
+
+- Build + run directly from Xcode on your device with valid signing.
+- Export a properly signed IPA (development, ad-hoc, or TestFlight/App Store).
+
+Do **not** install unsigned IPA artifacts on-device; they are only useful for CI packaging checks.
+
 ## Build IPA with GitHub Actions
 
 Workflow: `.github/workflows/build-ios.yml`
